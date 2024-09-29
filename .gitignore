@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+
+# Production build
+dist/
+build/
+
+# Cache and Logs
+*.log
+.cache/
+.vscode/
+
+# OS or IDE specific files
+.DS_Store
+*.swp
+*.swo
+
+# Coverage Reports
+coverage/
+
+# PostCSS cache
+postcss.config.js
+
+# Tailwind cache
+tailwind.config.js
+
+# Lock file should be included unless you want to exclude version locking
+# package-lock.json
